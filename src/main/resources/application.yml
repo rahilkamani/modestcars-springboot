@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAQC4OAFKLFFFVDDXX
+      secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: modestcars-mum-img-storage
+
+server:
+  port: 9090
